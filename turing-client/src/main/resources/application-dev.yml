@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: turing-lient
+server:
+  port: 13080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10080/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    metadata-map:
+          zone: zone1
+
+feign:
+  .circuitbreaker:
+    enabled: true
+  okhttp:
+    enabled: true
+
