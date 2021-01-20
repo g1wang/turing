@@ -20,7 +20,6 @@
     <modules>
         <module>common</module>
         <module>eureka-server</module>
-        <module>user-service</module>
         <module>book-service</module>
         <module>turing-client</module>
     </modules>
