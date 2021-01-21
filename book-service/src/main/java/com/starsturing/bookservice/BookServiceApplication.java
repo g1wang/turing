@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @ServletComponentScan
-@MapperScan(value = "com.starsturing.bookservice.mapper")
+@MapperScan(value = "com.starsturing.*.mapper")
 public class BookServiceApplication {
 
     public static void main(String[] args) {
